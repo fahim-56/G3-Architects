@@ -98,8 +98,9 @@ main {
     display: flex;
     justify-content: center;
 }
+
 .main2 {
-        margin-top: 100px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -136,19 +137,44 @@ main {
     color: #FF900E;
 }
 
-.cards{
+.cards {
     margin-top: 100px;
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-.card{
+
+.card {
     border: 2px solid #FF900E;
     padding-top: 30px;
     text-align: center;
     height: 200px;
     width: 200px;
 }
+
+.sponser-info {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sponsors-img {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.sponsors-img img {
+    margin: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
 /* responsive media query */
 
 @media screen and (max-width:576px) {
@@ -169,15 +195,20 @@ main {
     .features-images {
         gap: 0px;
     }
-    .cards{
+
+    .cards {
         flex-direction: column;
         margin-left: 100px;
+    }
+
+    .sponsors-img image {
+        flex-wrap: wrap;
     }
 
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
-.features{
-    flex-direction: column;
-}
+    .features {
+        flex-direction: column;
+    }
 }
