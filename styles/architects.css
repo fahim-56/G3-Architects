@@ -167,13 +167,16 @@ main {
 
 .sponsors-img img {
     margin: 10px;
+    filter: grayscale(100%);
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
+
+
 
 /* responsive media query */
 
